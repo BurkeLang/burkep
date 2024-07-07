@@ -1,0 +1,33 @@
+<!DOCTYPE xml>
+<Args Version="PREBUILD">
+    <Arg>
+        <Required>true</Required>
+        <Name>input</Name>
+        <Type Pos="true">string</Type>
+        <Description>Input build.xml file</Description>
+    </Arg>
+    <Arg>
+        <Required>false</Required>
+        <Name>output</Name>
+        <Type>string</Type>
+        <Description>Compiled output directory, required if not stated in build.xml</Description>
+    </Arg>
+    <Arg>
+        <Required>false</Required>
+        <Name>run</Name>
+        <Type>bool</Type>
+        <Description>Run the compiled output file</Description>
+    </Arg>
+    <Arg>
+        <Required>false</Required>
+        <Name>requirements</Name>
+        <Type>string</Type>
+        <Description>Attach a requirements.xml, if not stated in build.xml</Description>
+    </Arg>
+    <Arg>
+        <Required>false</Required>
+        <Name>install</Name>
+        <Type>bool</Type>
+        <Description>Depricated, use build.xml settings to configure with BLPM</Description>
+    </Arg>
+</Args>

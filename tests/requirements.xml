@@ -1,0 +1,11 @@
+<!DOCTYPE xml>
+<Requirements>
+    <Requirement>
+        <Type>pip</Type>
+        <Name>requests</Name>
+        <PipName>{Name}</PipName>
+        <Version ignoreLatest="true">LATEST</Version>
+        <Description></Description>
+        <Git></Git>
+    </Requirement>
+</Requirements>

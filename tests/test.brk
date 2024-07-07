@@ -1,0 +1,15 @@
+package test;
+
+require BDK.Version == "PREBUILD";
+require BDK.BurkeP.Version == "PREBUILD";
+require BDK.BurkePackageManager.Version == "PREBUILD;
+
+import System.CMD.Input;
+import System.CMD.Output as Print;
+
+export function PrintName<void>(){
+    var InputData<string> = Input("Enter Text");
+    Print(InputData);
+};
+
+load BDK.BurkeP.PYCompiler

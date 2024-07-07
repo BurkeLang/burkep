@@ -1,0 +1,20 @@
+<!DOCTYPE xml>
+<Build>
+    <CompilerConfig>
+        <CompilerVersion>PREBUILD</CompilerVersion>
+        <CompilerType>burkep</CompilerType>
+        <CompilerOutput>.brkpyc</CompilerOutput>
+    </CompilerConfig>
+    <BuildConfig>
+        <OutputConfig>
+            <OutputArchive>true</OutputArchive>
+            <OutputArchiveName>test</OutputArchiveName>
+            <ArchiveType>.brkar</ArchiveType>
+        </OutputConfig>
+        <SourceConfig>
+            <InstallDir>C:/Program Files/{ProjectName}/</InstallDir>
+            <Files>src/</Files>
+            <Requirements>{Files}/requirements.xml</Requirements>
+        </SourceConfig>
+    </BuildConfig>
+</Build>
