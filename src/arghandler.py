@@ -58,3 +58,6 @@ class ArgBuilder:
                 self.Parser.add_argument(Arg,help=Description,type=str,**Args)
             elif Type == "bool":
                 self.Parser.add_argument(Arg,help=Description,type=bool,**Args)
+            
+
+            

@@ -1,0 +1,15 @@
+require BRK.ModuleLoader.Version == "LATEST";
+require BDK.Version == "PREBUILD";
+require BDK.BurkeP.Version == "PREBUILD";
+require BDK.BurkePackageManager.Version == "PREBUILD;
+
+pragma Compiler.Targets.Add = "MAIN";
+pragma Compiler.Language.Target = "PYTHON";
+
+load Compiler.ImportLib;
+load Compiler.PackageLib;
+load Compiler.BDK;
+
+PackageLib::Load("test");
+
+test::PrintName("hi");

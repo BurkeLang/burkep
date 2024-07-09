@@ -12,4 +12,3 @@ export function PrintName<void>(){
     Print(InputData);
 };
 
-load BDK.BurkeP.PYCompiler
